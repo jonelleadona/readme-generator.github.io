@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/jonelleadona/readme-generator.github.io/issues"
   },
-  "homepage": "https://github.com/jonelleadona/readme-generator.github.io#readme"
+  "homepage": "https://github.com/jonelleadona/readme-generator.github.io#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^7.3.3",
+    "path": "^0.12.7"
+  }
 }
