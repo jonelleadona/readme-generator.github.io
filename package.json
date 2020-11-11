@@ -1,14 +1,19 @@
 {
-  "name": "static-site",
+  "name": "readme-generator.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonelleadona/readme-generator.github.io.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "inquirer": "^6.5.2"
-  }
+  "bugs": {
+    "url": "https://github.com/jonelleadona/readme-generator.github.io/issues"
+  },
+  "homepage": "https://github.com/jonelleadona/readme-generator.github.io#readme"
 }
