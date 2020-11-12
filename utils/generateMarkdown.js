@@ -9,6 +9,8 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+  ## Table of Contents
+
   ## Installation Instructions 
   ${data.installation}
 
@@ -18,8 +20,12 @@ function generateMarkdown(data) {
   ## Contribution Guidelines 
   ${data.contribution}
 
-  ## Tests
+  ## Tests Instructions
   ${data.test}
+
+  ## Questions
+  GitHub Username: https://github.com/${data.username}
+  Email: ${data.email}
 
 `;
 }
