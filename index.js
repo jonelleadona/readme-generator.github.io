@@ -10,29 +10,50 @@ const questions = [
     type: "input",
     name: "title",
     message: "Please enter title"
-  }
-, 
+  }, 
   {
     type: "input",
     name: "description",
     message: "Please enter description"
-
   },
-
-/*"Please enter installation instructions", 
-"Please enter usage information", 
-"Please enter contribution guidelines", 
-"Please enter test instructions",
-"Please enter username",
-"Please enter email adress",*/
-{
-  type: "list",
-  name: "license",
-  message: "Please enter license",
-  choices: ["Apache", "Boost","BSD"]
-}
+  {
+    type: "input",
+    name: "installation",
+    message: "Please enter installation instructions"
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "Please enter usage information"
+  },
+  {
+    type: "input",
+    name: "contribution",
+    message: "Please enter contribution guidelines"
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "Please enter test instructions"
+  },
+  {
+    type: "input",
+    name: "username",
+    message: "Please enter username"
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Please enter email address "
+  },
+  {
+    type: "list",
+    name: "license",
+    message: "Please select license",
+    choices: ["Apache", "Boost","BSD"]
+  }
 ];
- console.log(questions);
+ //console.log(questions);
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -45,7 +66,6 @@ function init() {
   .then((response) => {
     writeToFile("README.md", generateMarkdown({...response}))
   })
-//writeToFile("README.md", generateMarkdown({...Inquirer-Response}))
 }
 
 // function call to initialize program
