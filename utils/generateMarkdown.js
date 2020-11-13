@@ -8,7 +8,12 @@ function generateMarkdown(data) {
   ![License](https://img.shields.io/badge/License-${data.license}%202.0-blue.svg)
 
   [Description](##description)
-
+  [Installation Instructions](##installation-instructions)
+  [Usage Information](##usage-information)
+  [Contribution Guidelines](##contribution-guidelines)
+  [Test Instructions](##test-instructions)
+  [Questions](##questions)
+  
   ## Description
 
   ${data.description}
