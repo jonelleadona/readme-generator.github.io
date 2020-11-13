@@ -50,7 +50,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "Please select license",
-    choices: ["Apache", "Boost","BSD"]
+    choices: ["Apache", "Boost","BSD", "None"]
   }
 ];
  //console.log(questions);
