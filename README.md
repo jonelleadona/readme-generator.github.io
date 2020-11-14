@@ -7,7 +7,7 @@
   [Description](#description)  
   [Installation Instructions](#installation-instructions)  
   [Usage Information](#usage-information)  
-  [License](#license) 
+  [License](#license)  
   [Contribution Guidelines](#contribution-guidelines)  
   [Test Instructions](#test-instructions)  
   [Questions](#questions)  
@@ -20,11 +20,11 @@
 
   To install necessary dependencies, run the following command:  
 
-  Clone the repository and save it to your local drive.
+  Use NPM packages
 
   ## Usage Information
 
-  Fork the repo and create your branch from master. If you've added code that should be tested, add tests.
+  Answer the following promt questions that are generated. Once all the questions recieve user response, the answers will display in accordance to the questions. 
 
   ## License
   
@@ -32,7 +32,7 @@
 
   ## Contribution Guidelines 
 
-  NPM
+  Pull a request to the repository to add a seperate contribution branch. 
 
   ## Test Instructions
 
