@@ -1,6 +1,6 @@
-# readMe
+# readeMe
 
-  ![License](https://img.shields.io/badge/License-Boost%202.0-blue.svg)
+  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
   ## Table of Contents
   
@@ -8,7 +8,7 @@
   [Installation Instructions](#installation-instructions)  
   [Usage Information](#usage-information)  
   [Contribution Guidelines](#contribution-guidelines)  
-  [Test Instructions](#test)  
+  [Test Instructions](#test-instructions)  
   [Questions](#questions)  
 
   ## Description
@@ -23,17 +23,17 @@
 
   ## Usage Information
 
-  To generate a professionak readMe
+  To create a profession readMe 
 
   ## License
   
-  This project is licensed by Boost
+  This project is licensed by Apache
 
   ## Contribution Guidelines 
 
   NA
 
-  ## Tests Instructions
+  ## Test Instructions
 
   To run test, run the following commad:  
 
