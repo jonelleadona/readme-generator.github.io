@@ -1,4 +1,4 @@
-# ReadME
+# readMe
 
   ![License](https://img.shields.io/badge/License-Boost%202.0-blue.svg)
 
@@ -23,7 +23,7 @@
 
   ## Usage Information
 
-  TO create a professional readMe
+  To generate a professionak readMe
 
   ## License
   

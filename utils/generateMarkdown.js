@@ -9,7 +9,7 @@ function generateMarkdown(data) {
   [Installation Instructions](#installation-instructions)  
   [Usage Information](#usage-information)  
   [Contribution Guidelines](#contribution-guidelines)  
-  [Test Instructions](#test)  
+  [Test Instructions](#test-instructions)  
   [Questions](#questions)  
 
   ## Description
@@ -34,7 +34,7 @@ function generateMarkdown(data) {
 
   ${data.contribution}
 
-  ## Tests Instructions
+  ## Test Instructions
 
   To run test, run the following commad:  
 
