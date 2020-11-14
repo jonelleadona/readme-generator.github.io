@@ -3,7 +3,6 @@ const inquirer = require("inquirer");
 const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-
 // array of questions for user
 const questions = [
   {
@@ -39,7 +38,7 @@ const questions = [
   {
     type: "input",
     name: "username",
-    message: "Please enter username"
+    message: "Please enter GitHub username"
   },
   {
     type: "input",
@@ -52,9 +51,9 @@ const questions = [
     message: "Please select license",
     choices: ["Apache", "Boost","BSD", "None"]
   }
-];
- //console.log(questions);
 
+];
+ 
 // function to write README file
 function writeToFile(fileName, data) {
   return fs.writeFileSync(fileName,data);
